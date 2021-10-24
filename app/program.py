@@ -37,7 +37,9 @@ def book_riding_hour():
         print("{}. Stable: {}, horse: {}.".format(idx + 1, o.stable, o.horse_name))
 
     print()
-    choice = input("Enter a number of the horse to book: ")
+    choice = 10000
+    while int(choice) > len(options):
+        choice = input("Enter a number of the horse to book: ")
     if not choice or not choice.strip():
         print("Ok, bye!")
         return False

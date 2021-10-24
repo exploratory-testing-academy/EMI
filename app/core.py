@@ -50,8 +50,11 @@ def find_horse_by_name(horse_name: str) -> Optional[Horse]:
 
 
 horses = [
-    Horse("Pipsa", "Koivuniemen Talli", 2),
-    Horse("Diego", "Koivuniemen Talli", 2),
+    Horse("Pipsa", "Koivuniemi", 2),
+    Horse("Diego", "Koivuniemi", 2),
+    Horse("Rolex", "Tuomarinkylä", 1),
+    Horse("Diva", "Tuomarinkylä", 1),
+    Horse("Kassu", "Mustila", 2),
 ]
 
 horse_lookup = {
